@@ -1,0 +1,50 @@
+
+body{
+    background-color: #fff;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 250px;
+}
+h1{
+    padding: 50px;
+}
+
+.botaosorte {
+    background: #000000;
+    background-image: -webkit-linear-gradient(top, #000000, #323336);
+    background-image: -moz-linear-gradient(top, #000000, #323336);
+    background-image: -ms-linear-gradient(top, #000000, #323336);
+    background-image: -o-linear-gradient(top, #000000, #323336);
+    background-image: -webkit-gradient(to bottom, #000000, #323336);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    height: 53px;
+    line-height: 53px;
+    color: #FFEF00;
+    font-family: Verdana;
+    width: 223px;
+    font-size: 45px;
+    font-weight: 100;
+    padding: 40px;
+    text-shadow: -1px 0 20px #B57D03;
+    border: solid #000000 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+ }
+ 
+ .botaosorte:hover {
+    border: solid #EBFF00 1px;
+    background: #18191A;
+    background-image: -webkit-linear-gradient(top, #18191A, #5A5A5A);
+    background-image: -moz-linear-gradient(top, #18191A, #5A5A5A);
+    background-image: -ms-linear-gradient(top, #18191A, #5A5A5A);
+    background-image: -o-linear-gradient(top, #18191A, #5A5A5A);
+    background-image: -webkit-gradient(to bottom, #18191A, #5A5A5A);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+ }
