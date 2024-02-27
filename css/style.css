@@ -5,6 +5,8 @@
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
+    list-style: none;
+    text-decoration: none;
 }
 .container{
     align-items: center;
