@@ -78,6 +78,7 @@ ul li:hover ion-icon{
 }
 ul li span{
     position: absolute;
+    
 }
 ul li .text{
     color: #fff;
