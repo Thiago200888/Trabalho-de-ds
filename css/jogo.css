@@ -99,9 +99,11 @@ ul li:hover ion-icon{
     color: #fff;
     transform: scale(0);
     transition-delay: 0;
+    
 }
 ul li span{
     position: absolute;
+    text-decoration: none;
 }
 ul li .text{
     color: #fff;
