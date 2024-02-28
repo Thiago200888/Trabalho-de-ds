@@ -93,3 +93,7 @@ ul li:hover .text{
     transform: scale(1);
     transition-delay: 0.25;
 }
+.text a {
+    color: #000;
+    text-decoration: none;
+}
