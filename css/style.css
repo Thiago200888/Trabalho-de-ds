@@ -78,6 +78,7 @@ ul li:hover ion-icon{
 }
 ul li span{
     position: absolute;
+    
 }
 ul li .text{
     color: #fff;
@@ -91,4 +92,8 @@ ul li .text{
 ul li:hover .text{
     transform: scale(1);
     transition-delay: 0.25;
+}
+.text a {
+    color: #000;
+    text-decoration: none;
 }
