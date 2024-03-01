@@ -1,4 +1,3 @@
-
 body{
     background-color: #fff;
     font-size: 35px;
@@ -6,36 +5,8 @@ body{
     text-align: center;
     margin-top: 250px;
 }
-h1{
-    padding: 50px;
-}
 
-.botaosorte {
-    background: #fff;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    border-radius: 60px;
-    height: 53px;
-    line-height: 53px;
-    color: #080808;
-    font-family: Verdana;
-    width: 223px;
-    font-size: 45px;
-    font-weight: 100;
-    padding: 40px;
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
-    text-decoration: none;
-    display: inline-block;
-    cursor: pointer;
- }
- 
- .botaosorte:hover {
-    border: solid #3d3d3c 1px;
-    background: #d3d1d1;
-    text-decoration: none;
- }
-
- .container{
+.container{
     min-height: 60vh;
     width: 100%;
 }
@@ -126,8 +97,8 @@ ul li:hover .text{
 }
 
 footer{
-   position: absolute;
-   position: relative;
-   
-
+   text-align: center;
+   padding: 0;
+   margin-bottom: 00;
+   margin-top: 260px
 }
