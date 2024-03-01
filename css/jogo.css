@@ -1,0 +1,133 @@
+
+body{
+    background-color: #fff;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 250px;
+}
+h1{
+    padding: 50px;
+}
+
+.botaosorte {
+    background: #fff;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 60px;
+    height: 53px;
+    line-height: 53px;
+    color: #080808;
+    font-family: Verdana;
+    width: 223px;
+    font-size: 45px;
+    font-weight: 100;
+    padding: 40px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+ }
+ 
+ .botaosorte:hover {
+    border: solid #3d3d3c 1px;
+    background: #d3d1d1;
+    text-decoration: none;
+ }
+
+ .container{
+    min-height: 60vh;
+    width: 100%;
+}
+ul{
+    gap: 25px;
+    position: relative;
+    margin-top: -200px;
+}
+ul li{
+    align-items: center;
+    background: #fff;
+    border-radius: 60px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    display: flex;
+    height: 60px;
+    justify-content: center;
+    list-style: none;
+    position: relative;
+    transition: 0.5s;
+    width: 60px;
+}
+ul li:hover{
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0);
+    width: 180px;
+}
+ul li::before{
+    background: linear-gradient(45deg, var(--i), var(--j));
+    border-radius: 60px;
+    content: '';
+    inset: 0;
+    opacity: 0;
+    position: absolute;
+    transition: 0.5s;
+}
+ul li:hover::before{
+    opacity: 1;
+}
+ul li::after{
+    background: linear-gradient(45deg, var(--i), var(--j));
+    content: '';
+    filter: blur(15px);
+    height: 100%;
+    opacity: 0;
+    position: absolute;
+    top: 10px;
+    transition: 0.5s;
+    width: 100%;
+    z-index: -1;
+}
+ul li:hover::after{
+    opacity: 0.5;
+}
+
+ul li ion-icon{
+    color: #777;
+    font-size: 1.75rem;
+    transition: 0.5s;
+}
+ul li:hover ion-icon{
+    color: #fff;
+    transform: scale(0);
+    transition-delay: 0;
+    
+}
+ul li span{
+    position: absolute;
+    text-decoration: none;
+}
+ul li .text{
+    color: #fff;
+    font-size: 1.25rem;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    transform: scale(0);
+    transition-delay: 0s;
+    transition: 0.5s;
+}
+ul li:hover .text{
+    transform: scale(1);
+    transition-delay: 0.25;
+}
+
+.text > a {
+    color: #080808;
+    text-decoration: none;
+    list-style: none;
+}
+
+footer{
+   position: absolute;
+   position: relative;
+   
+
+}
